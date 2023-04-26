@@ -56,6 +56,6 @@ function agregarPersona (){
     contador = contador+1;
 
     // mediante el innerHTML agrego lineas al html con las variables que quedan grabadas en el objeto 
-    document.getElementById('tabla_muestra').innerHTML += ' <tbody class="table-group-divider"><tr><th scope="row">'+contador+'</th><td>'+newPersona.nombre+ '</td><td>'+newPersona.edad+'</td><td>'+newPersona.colorFav+'</td></tr></tbody>'
+    document.getElementById('tabla_muestra').innerHTML += '<tbody class="table-group-divider"><tr><th scope="row">'+contador+'</th><td>'+newPersona.nombre+ '</td><td>'+newPersona.edad+'</td><td>'+newPersona.colorFav+'</td></tr></tbody>'
 
 }

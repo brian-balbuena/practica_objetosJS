@@ -28,7 +28,9 @@ body {
     margin: 5px;
 }
 
-
+.panel_datos button {
+    margin-top: 10px;
+}
 
 
 /* tabla  */
